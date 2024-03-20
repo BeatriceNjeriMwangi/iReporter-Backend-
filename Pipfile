@@ -17,6 +17,7 @@ cloudinary = "*"
 flask-jwt-extended = "*"
 flask-login = "*"
 psycopg2-binary = "*"
+gunicorn = "*"
 
 [dev-packages]
 
