@@ -1,5 +1,5 @@
-from .models import User, RedFlagRecord, InterventionRecord, AdminAction,db
-from .config import app ,db, api
+from models import User, RedFlagRecord, InterventionRecord, AdminAction,db
+from config import app ,db, api
 from flask import Flask,jsonify,request,make_response
 from flask_restful import Resource 
 # from flask_login import UserMixin

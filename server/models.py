@@ -4,7 +4,7 @@ from sqlalchemy_serializer import SerializerMixin
 from sqlalchemy import MetaData
 from datetime import datetime
 from sqlalchemy.ext.hybrid import hybrid_property
-from .config import db, bcrypt
+from config import db, bcrypt
 
 
 
